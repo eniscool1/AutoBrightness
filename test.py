@@ -1,5 +1,6 @@
 # importing the module
 import screen_brightness_control as sbc
+import pyqt5 as qt5
  
 # get current brightness  value
 current_brightness = sbc.get_brightness()
