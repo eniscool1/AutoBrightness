@@ -8,3 +8,5 @@ print(current_brightness)
 # get the brightness of the primary display
 primary_brightness = sbc.get_brightness(display=0)
 print(primary_brightness)
+
+sbc.set_brightness(83)
