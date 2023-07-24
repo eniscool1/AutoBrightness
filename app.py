@@ -1,10 +1,11 @@
 import sys
 
-from PyQt5.QtCore import QSize, Qt
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QSlider
+# from PyQt5.QtCore import QSize, Qt
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QSlider, QVBoxLayout, QLabel, QWidget
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
-from PyQt5.QtWidgets import QVBoxLayout, QLabel, QWidget  # add this import
+
+
 import screen_brightness_control as sbc
 
 

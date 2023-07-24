@@ -11,4 +11,5 @@ primary_brightness = sbc.get_brightness(display=0)
 print(primary_brightness)
 
 sbc.set_brightness(83)
+# sbc.fade_brightness(75, start=25)
 
